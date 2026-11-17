@@ -3,28 +3,28 @@
 class Coss < Formula
   desc "Command line for coss.com: sign in, send test emails, tail logs, forward webhooks"
   homepage "https://coss.com/docs/cli"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cosscom/coss-cli/releases/download/coss-cli%400.7.0/coss-cli-0.7.0-darwin-arm64.tar.gz"
-      sha256 "1bef93e429b113e5d8d74a4ae11124bca08d3167f606019f7c0742b409cf573a"
+      url "https://github.com/cosscom/coss-cli/releases/download/coss-cli%400.8.0/coss-cli-0.8.0-darwin-arm64.tar.gz"
+      sha256 "09b58b9714f394ed589e27270d02f460c47f5031c9f05ca645a464fcd6f4e354"
     end
     on_intel do
-      url "https://github.com/cosscom/coss-cli/releases/download/coss-cli%400.7.0/coss-cli-0.7.0-darwin-x64.tar.gz"
-      sha256 "547f319f17a7ff93df93bc127d53a9d219884d1c7391270cbf4c838b0f7c259e"
+      url "https://github.com/cosscom/coss-cli/releases/download/coss-cli%400.8.0/coss-cli-0.8.0-darwin-x64.tar.gz"
+      sha256 "c584469b394dbda8e00195f2c002aa983edd6cd200308b71ab33c907c9ae362a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cosscom/coss-cli/releases/download/coss-cli%400.7.0/coss-cli-0.7.0-linux-arm64.tar.gz"
-      sha256 "99555884fbae35dac8c7e94f1a8c43d6688e92ca718cf066f0c927f0b3a22f68"
+      url "https://github.com/cosscom/coss-cli/releases/download/coss-cli%400.8.0/coss-cli-0.8.0-linux-arm64.tar.gz"
+      sha256 "e5ce74534b2b43aef6affa2ef2221ba9504345ae8b974fb5de9586d8a48c2314"
     end
     on_intel do
-      url "https://github.com/cosscom/coss-cli/releases/download/coss-cli%400.7.0/coss-cli-0.7.0-linux-x64.tar.gz"
-      sha256 "5d186c008133270849d218cf895d25feaf07bcb4113864beca3f8360b378c87b"
+      url "https://github.com/cosscom/coss-cli/releases/download/coss-cli%400.8.0/coss-cli-0.8.0-linux-x64.tar.gz"
+      sha256 "a69b923dda958e71d20554ed3f41629ecd821265867967786f58a90f3a1195a1"
     end
   end
 
